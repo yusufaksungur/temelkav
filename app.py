@@ -24,4 +24,7 @@ with open(dosya_yolu, "w") as dosya:
     dosya.write(f"Kimya: {kimya}\n")
     dosya.write(f"Ortalama: {ortalama:.2f}\n")
     dosya.write(f"Sonuç: {sonuc}\n")
-
+    
+# Dosyadan oku
+with open(dosya_yolu, "r") as dosya:
+    print(dosya.read())
